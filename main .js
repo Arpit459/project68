@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Perter Parker</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#videos">VIDEOS</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#writing">WRITING</a></li>
+                <li><a href="#blog">BLOG</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2 class="text-capitalize ">Books</h2>
+    </div>
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h3>Bill Gates</h3>
+        <h4>
+
+            <mark class="header_entrepreneur"> <i> <sup><i class="fa fa-quote-left"></i></sup> Reading is still the main way that I both learn new things and test my understanding. <sup><i class="fa fa-quote-right">
+                        </i>
+                    </sup>
+                </i>
+            </mark>
+        </h4>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize ">List of Books</h2>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#First_Space_Encyclopaedia"> <img src="s1.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">First Space Encyclopaedia</p>
+        </div>
+        <div class="modal fade" id="First_Space_Encyclopaedia">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">First Space Encyclopaedia</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="s1.jpg" class="img-responsive">
+                        <p class="p_modal">Zoom off into the galaxy and investigate all the planets, from Earth to Mars with First Space Encyclopaedia. Packed full of stunning photography, quizzes and amazing facts, children will become space experts in no time. Covering everything from observatories and rockets, to the solar system and the death of stars, children will discover all about space and space travel.<br> <a href="https://www.amazon.in/First-Space-Encyclopaedia-DK/dp/0241293421/ref=sr_1_6?crid=176WU3JFDK2JP&keywords=books+on+space+for+kids&qid=1575444723&sprefix=books+on%2Caps%2C285&sr=8-6">BEST BUY LINK</b></a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <section id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+
+
+            <div class="contact_1">
+
+                <a href="mailto:my@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+                </a>
+
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+                </a>
+            </div>
+        </section>
+
+
+</body>
+
+</html>
